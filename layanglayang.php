@@ -23,7 +23,7 @@ $keliling = 2 * ($a + $b);
     <main>
         <section>
             <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/layang.webp" style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;"
+                <img src="./assets/images/layang.webp" style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;"
                     alt="Layang Layang">
             </div>
             <div>

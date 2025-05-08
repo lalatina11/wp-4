@@ -1,7 +1,4 @@
 <?php
-$sisi = 12;
-$luas = $sisi * $sisi;
-$keliling = 4 * $sisi;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,16 +12,17 @@ $keliling = 4 * $sisi;
 
 <body>
     <?php include "./components/back-button.php" ?>
-    <h1 style="text-align: center;">Persegi</h1>
     <main>
         <section>
-            <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/gambar-persegi.webp  " style="width: 100%;height: auto;" alt="Persegi">
-            </div>
-            <div style="margin-top: 20px;">
-                <h1 style="text-align: center;">Luas = sisi x sisi = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = 4 x sisi = <?php echo $keliling; ?></h1>
-            </div>
+            <form action="persegi-action.php"
+                style="text-align: center;text-transform: capitalize;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 50vh; margin: auto;gap: 20px;"
+                method="POST">
+                <h2>
+                    hitung luas Persegi</h2>
+                <input type="number" name="sisi" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan sisi Persegi">
+                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+            </form>
         </section>
     </main>
 </body>
