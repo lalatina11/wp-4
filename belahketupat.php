@@ -20,13 +20,20 @@ $keliling = 4 * $sisi;
     <h1 style="text-align: center;">Belah Ketupat</h1>
     <main>
         <section>
-            <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/belah-ketupat_43.webp" style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Belah Ketupat">
-            </div>
-            <div>
-                <h1 style="text-align: center;">Luas = 1/2 d1 x d2 = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = 4 x sisi = <?php echo $keliling; ?></h1>
-            </div>
+            <form action="belahketupat-action.php"
+                style="text-align: center;text-transform: capitalize;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 50vh; margin: auto;gap: 20px;"
+                method="POST">
+                <h2>
+                    hitung luas Belah Ketupat</h2>
+                <input type="number" name="d1" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan d1 Belah Ketupat">
+                <input type="number" name="d2" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan d2 Belah Ketupat">
+                <input type="number" name="sisi" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan sisi Belah Ketupat">
+                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+            </form>
+
         </section>
     </main>
 </body>

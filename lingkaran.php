@@ -21,7 +21,7 @@ $keliling = 2 * $phi * $r;
     <main>
         <section>
             <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/gambar-lingkaran.webp  "
+                <img src="./assets/images/gambar-lingkaran.webp  "
                     style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Lingkaran">
             </div>
             <div>

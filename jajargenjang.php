@@ -5,7 +5,6 @@ $sisi = 4;
 $luas = $alas * $tinggi;
 $keliling = 2 * ($alas + $sisi);
 
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +22,7 @@ $keliling = 2 * ($alas + $sisi);
     <main>
         <section>
             <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/rumus-jajar-genjang-1_169.webp"
+                <img src="./assets/images/rumus-jajar-genjang-1_169.webp"
                     style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Jajar Genjang">
             </div>
             <div>

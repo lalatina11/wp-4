@@ -24,7 +24,7 @@ $keliling = $a + $b + $c;
     <main>
         <section>
             <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/gambar-segitiga.webp"
+                <img src="./assets/images/gambar-segitiga.webp"
                     style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Segitiga">
             </div>
             <div>
