@@ -1,10 +1,5 @@
 <?php
-$d1 = 24;
-$d2 = 48;
-$a = 5;
-$b = 37;
-$luas = 1 / 2 * $d1 * $d2;
-$keliling = 2 * ($a + $b);
+
 
 ?>
 <!DOCTYPE html>
@@ -21,16 +16,21 @@ $keliling = 2 * ($a + $b);
     <?php include "./components/back-button.php" ?>
     <h1 style="text-align: center;">Layang Layang</h1>
     <main>
-        <section>
-            <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/images/layang.webp" style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;"
-                    alt="Layang Layang">
-            </div>
-            <div>
-                <h1 style="text-align: center;">Luas = 1/2 d1 x d2 = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = 2 (a + b) = <?php echo $keliling; ?></h1>
-            </div>
-        </section>
+        <form action="layanglayang-action.php"
+            style="text-align: center;text-transform: capitalize;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 50vh; margin: auto;gap: 20px;"
+            method="POST">
+            <h2>
+                hitung luas Layang-Layang</h2>
+            <input type="number" name="d1" style="width: 100%; padding: 4px 8px;" id=""
+                placeholder="Masukkan d1 Layang-Layang">
+            <input type="number" name="d2" style="width: 100%; padding: 4px 8px;" id=""
+                placeholder="Masukkan d2 Layang-Layang">
+            <input type="number" name="a" style="width: 100%; padding: 4px 8px;" id=""
+                placeholder="Masukkan a Layang-Layang">
+            <input type="number" name="b" style="width: 100%; padding: 4px 8px;" id=""
+                placeholder="Masukkan b Layang-Layang">
+            <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+        </form>
     </main>
 </body>
 

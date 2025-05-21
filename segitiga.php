@@ -1,12 +1,4 @@
 <?php
-$alas = 10;
-$tinggi = 12;
-$a = 3;
-$b = 4;
-$c = 5;
-$luas = 1 / 2 * $alas * $tinggi;
-$keliling = $a + $b + $c;
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,14 +15,23 @@ $keliling = $a + $b + $c;
     <h1 style="text-align: center;">Segitiga</h1>
     <main>
         <section>
-            <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/images/gambar-segitiga.webp"
-                    style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Segitiga">
-            </div>
-            <div>
-                <h1 style="text-align: center;">Luas = 1/2 x alas x tinggi = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = a + b + c = <?php echo $keliling; ?></h1>
-            </div>
+            <form action="segitiga-action.php"
+                style="text-align: center;text-transform: capitalize;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 50vh; margin: auto;gap: 20px;"
+                method="POST">
+                <h2>
+                    hitung luas Segitiga</h2>
+                <input type="number" name="alas" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan alas Segitiga">
+                <input type="number" name="tinggi" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan tinggi Segitiga">
+                <input type="number" name="sisi-a" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan sisi a Segitiga">
+                <input type="number" name="sisi-b" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan sisi b Segitiga">
+                <input type="number" name="sisi-c" style="width: 100%; padding: 4px 8px;" id=""
+                    placeholder="Masukkan sisi c Segitiga">
+                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+            </form>
         </section>
     </main>
 </body>

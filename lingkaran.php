@@ -1,9 +1,5 @@
 <?php
-$phi = 3.14;
-$r = 5;
-$d = 10;
-$luas = $phi * $r * $r;
-$keliling = 2 * $phi * $r;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,16 +15,17 @@ $keliling = 2 * $phi * $r;
     <?php include "./components/back-button.php" ?>
     <h1 style="text-align: center;">Lingkaran</h1>
     <main>
-        <section>
-            <div style="width: 35%;position: relative; margin: auto;">
-                <img src="./assets/images/gambar-lingkaran.webp  "
-                    style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Lingkaran">
-            </div>
-            <div>
-                <h1 style="text-align: center;">Luas = 1/2 d1 x d2 =<?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = 2 (a + b) = <?php echo $keliling; ?></h1>
-            </div>
-        </section>
+        <form action="lingkaran-action.php"
+            style="text-align: center;text-transform: capitalize;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 50vh; margin: auto;gap: 20px;"
+            method="POST">
+            <h2>
+                hitung luas Lingkaran</h2>
+            <input type="number" name="jari-jari" style="width: 100%; padding: 4px 8px;" id=""
+                placeholder="Masukkan jari-jari Lingkaran">
+            <input type="number" name="diameter" style="width: 100%; padding: 4px 8px;" id=""
+                placeholder="Masukkan diameter Lingkaran">
+            <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+        </form>
     </main>
 </body>
 
