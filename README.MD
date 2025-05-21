@@ -1,3 +1,8 @@
+Nama : Candra Rahmadan
+Kelas : 19.2A.21
+NIM : 19240731
+---
+
 branch tugas-wp-4 => Project untuk tugas web programming 1 pertemuan 4
 
 ---
