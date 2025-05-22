@@ -14,7 +14,7 @@
         </h3>
         <form
             style="display: flex;flex-direction: column;max-width: 450px;margin: auto; justify-content: center;align-items: center;gap: 16px;"
-            action="table.php">
+            action="table.php" method="POST">
             <table border="1">
                 <tr>
                     <td>
