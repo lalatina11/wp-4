@@ -16,7 +16,7 @@ $alamat = $_POST['alamat'];
 
 <body>
     <main>
-        <table border="1">
+        <table class="table table-bordered" border="1">
             <tr>
                 <td>Nama</td>
                 <td>:</td>

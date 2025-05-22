@@ -15,7 +15,7 @@
         <form
             style="display: flex;flex-direction: column;max-width: 450px;margin: auto; justify-content: center;align-items: center;gap: 16px;"
             action="table.php" method="POST">
-            <table border="1">
+            <table class="table table-bordered">
                 <tr>
                     <td>
                         <label for="nama">Nama</label>
