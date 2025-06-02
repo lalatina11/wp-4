@@ -10,6 +10,7 @@
 
 <body>
     <main>
+        <?php include "./components/back-button.php" ?>
         <h3 style="display: flex;justify-content: center;align-items: center;margin:20px 0px ;">Masukkan identitas anda
         </h3>
         <form
