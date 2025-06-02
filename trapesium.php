@@ -1,12 +1,4 @@
 <?php
-$a = 8;
-$b = 12;
-$t = 7;
-$c = 10;
-$d = 12;
-$luas = 1 / 2 * ($a + $b) * $t;
-$keliling = $a + $b + $c + $d;
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
