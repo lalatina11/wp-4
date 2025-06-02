@@ -21,14 +21,32 @@
             method="POST">
             <h2>
                 hitung luas Layang-Layang</h2>
-            <input type="number" name="d1" style="width: 100%; padding: 4px 8px;" id=""
-                placeholder="Masukkan d1 Layang-Layang">
-            <input type="number" name="d2" style="width: 100%; padding: 4px 8px;" id=""
-                placeholder="Masukkan d2 Layang-Layang">
-            <input type="number" name="a" style="width: 100%; padding: 4px 8px;" id=""
-                placeholder="Masukkan a Layang-Layang">
-            <input type="number" name="b" style="width: 100%; padding: 4px 8px;" id=""
-                placeholder="Masukkan b Layang-Layang">
+            <table style="width: 100%;">
+                <tr>
+                    <td><label for="d1">d1</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="d1" style="width: 100%;" id="d1"
+                            placeholder="Masukkan d1 Layang-Layang"></td>
+                </tr>
+                <tr>
+                    <td><label for="d2">d2</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="d2" style="width: 100%;" id="d2"
+                            placeholder="Masukkan d2 Layang-Layang"></td>
+                </tr>
+                <tr>
+                    <td><label for="a">a</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="a" style="width: 100%;" id="a"
+                            placeholder="Masukkan a Layang-Layang"></td>
+                </tr>
+                <tr>
+                    <td><label for="b">b</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="b" style="width: 100%;" id="b"
+                            placeholder="Masukkan b Layang-Layang"></td>
+                </tr>
+            </table>
             <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
         </form>
     </main>

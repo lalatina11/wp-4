@@ -25,10 +25,20 @@ $keliling = 2 * ($a + $b);
                 <img src="./assets/images/layang.webp"
                     style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Layang Layang">
             </div>
-            <div>
-                <h1 style="text-align: center;">Luas = 1/2 d1 x d2 = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = 2 (a + b) = <?php echo $keliling; ?></h1>
-            </div>
+            <table class="table table-bordered" style="width: 50%;margin: auto;">
+                <tr>
+                    <th>Rumus</th>
+                    <th>Hasil</th>
+                </tr>
+                <tr>
+                    <td>Luas = 1/2 x d1 x d2</td>
+                    <td><?php echo $luas; ?></td>
+                </tr>
+                <tr>
+                    <td>Keliling = 2 x (a + b)</td>
+                    <td><?php echo $keliling; ?></td>
+                </tr>
+            </table>
         </section>
     </main>
 </body>
