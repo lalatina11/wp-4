@@ -25,15 +25,20 @@ $keliling = 2 * ($panjang + $lebar);
                 <img src="./assets/images/gambar-persegi-panjang.webp"
                     style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Persegi Panjang">
             </div>
-            <div>
-                <h1 style="text-align: center;">Luas = panjang x lebar = <?= $panjang . " X " . $lebar . " =" ?>
-                    <?= $luas; ?>
-                </h1>
-                <h1 style="text-align: center;">Keliling = 2 x (<?= $panjang . " + " . $lebar ?>) =
-                    <?php echo $keliling; ?>
-                </h1>
-            </div>
-        </section>
+            <table class="table table-bordered" style="width: 50%;margin: 12px auto;">
+                <tr>
+                    <th>Rumus</th>
+                    <th>Hasil</th>
+                </tr>
+                <tr>
+                    <td>Luas = panjang x lebar</td>
+                    <td><?= $panjang . " X " . $lebar . " =" . $luas; ?></td>
+                </tr>
+                <tr>
+                    <td>Keliling = 2 x (panjang + lebar)</td>
+                    <td><?= "2 x (" . $panjang . " + " . $lebar . ") = " . $keliling; ?></td>
+                </tr>
+            </table>
     </main>
 </body>
 
