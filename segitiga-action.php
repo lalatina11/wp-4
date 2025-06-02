@@ -27,10 +27,20 @@ $keliling = $a + $b + $c;
                 <img src="./assets/images/gambar-segitiga.webp"
                     style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Segitiga">
             </div>
-            <div>
-                <h1 style="text-align: center;">Luas = 1/2 x alas x tinggi = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = sisi a + sisi b + sisi c = <?php echo $keliling; ?></h1>
-            </div>
+            <table class="table table-bordered" style="width: 50%;margin: 12px auto;">
+                <tr>
+                    <th>Rumus</th>
+                    <th>Hasil</th>
+                </tr>
+                <tr>
+                    <td>Luas = 1/2 x alas x tinggi</td>
+                    <td><?php echo $luas; ?></td>
+                </tr>
+                <tr>
+                    <td>Keliling = sisi a + sisi b + sisi c</td>
+                    <td><?php echo $keliling; ?></td>
+                </tr>
+            </table>
         </section>
     </main>
 </body>

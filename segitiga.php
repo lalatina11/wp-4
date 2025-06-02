@@ -20,16 +20,38 @@
                 method="POST">
                 <h2>
                     hitung luas Segitiga</h2>
-                <input type="number" name="alas" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan alas Segitiga">
-                <input type="number" name="tinggi" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan tinggi Segitiga">
-                <input type="number" name="sisi-a" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan sisi a Segitiga">
-                <input type="number" name="sisi-b" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan sisi b Segitiga">
-                <input type="number" name="sisi-c" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan sisi c Segitiga">
+                <table style="width: 100%; text-align: left;">
+                    <tr style="gap: 10px;">
+                        <td><label for="alas">Alas</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="alas" style="width: 100%;" id="alas"
+                                placeholder="Masukkan alas Segitiga"></td>
+                    </tr>
+                    <tr style="gap: 10px;">
+                        <td><label for="tinggi">Tinggi</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="tinggi" style="width: 100%;" id="tinggi"
+                                placeholder="Masukkan tinggi Segitiga"></td>
+                    </tr>
+                    <tr style="gap: 10px;">
+                        <td><label for="sisi-a">Sisi a</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="sisi-a" style="width: 100%;" id="sisi-a"
+                                placeholder="Masukkan sisi a Segitiga"></td>
+                    </tr>
+                    <tr style="gap: 10px;">
+                        <td><label for="sisi-b">Sisi b</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="sisi-b" style="width: 100%;" id="sisi-b"
+                                placeholder="Masukkan sisi b Segitiga"></td>
+                    </tr>
+                    <tr style="gap: 10px;">
+                        <td><label for="sisi-c">Sisi c</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="sisi-c" style="width: 100%;" id="sisi-c"
+                                placeholder="Masukkan sisi c Segitiga"></td>
+                    </tr>
+                </table>
                 <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
             </form>
         </section>
