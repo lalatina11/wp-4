@@ -25,13 +25,29 @@ $keliling = 4 * $sisi;
                 method="POST">
                 <h2>
                     hitung luas Belah Ketupat</h2>
-                <input type="number" name="d1" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan d1 Belah Ketupat">
-                <input type="number" name="d2" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan d2 Belah Ketupat">
-                <input type="number" name="sisi" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan sisi Belah Ketupat">
-                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+
+                <table style="width: 100%;text-align: left;">
+                    <tr>
+                        <td><label for="d1">d1</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="d1" style="width: 100%;" id="d1"
+                                placeholder="Masukkan d1 Belah Ketupat"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="d2">d2</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="d2" style="width: 100%;" id="d2"
+                                placeholder="Masukkan d2 Belah Ketupat"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sisi">sisi</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="sisi" style="width: 100%;" id="sisi"
+                                placeholder="Masukkan sisi Belah Ketupat"></td>
+                    </tr>
+                </table>
+                <td colspan="3"><input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id=""
+                        value="Submit"></td>
             </form>
 
         </section>
