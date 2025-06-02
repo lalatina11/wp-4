@@ -19,9 +19,15 @@
                 method="POST">
                 <h2>
                     hitung luas Persegi</h2>
-                <input type="number" name="sisi" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan sisi Persegi">
-                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+                <table style="width: 100%;">
+                    <tr>
+                        <td><label for="sisi">Sisi</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="sisi" style="width: 100%;" id="sisi"
+                                placeholder="Masukkan sisi Persegi"></td>
+                    </tr>
+                </table>
+                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="" value="Submit">
             </form>
         </section>
     </main>

@@ -24,12 +24,20 @@ $keliling = 4 * $sisi;
                 <a href="/" class="btn btn-secondary" style="width: 100%; margin: 20px 0px;">Home</a>
                 <img src="./assets/images/gambar-persegi.webp  " style="width: 100%;height: auto;" alt="Persegi">
             </div>
-            <div
-                style="margin-top: 20px; display: flex; justify-content: center;align-items: center;flex-direction: column;gap: 20px;">
-                <h1 style="text-align: center;">Luas = sisi x sisi = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = 4 x sisi = <?php echo $keliling; ?></h1>
-            </div>
-        </section>
+            <table class="table table-bordered" style="width: 50%;margin: 12px auto;">
+                <tr>
+                    <th>Rumus</th>
+                    <th>Hasil</th>
+                </tr>
+                <tr>
+                    <td>Luas = sisi x sisi</td>
+                    <td><?php echo $luas; ?></td>
+                </tr>
+                <tr>
+                    <td>Keliling = 4 x sisi</td>
+                    <td><?php echo $keliling; ?></td>
+                </tr>
+            </table>
     </main>
 </body>
 
