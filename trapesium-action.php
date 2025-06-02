@@ -27,10 +27,20 @@ $keliling = $a + $b + $c + $d;
                 <img src="./assets/images/gambar-trapesium.webp"
                     style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Trapesium">
             </div>
-            <div>
-                <h1 style="text-align: center;">Luas = 1/2 (a+b)xt = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = a+b+c+d = <?php echo $keliling; ?></h1>
-            </div>
+            <table class="table table-bordered" style="width: 50%;margin: 12px auto;">
+                <tr>
+                    <th>Rumus</th>
+                    <th>Hasil</th>
+                </tr>
+                <tr>
+                    <td>Luas = 1/2 (a+b)xt</td>
+                    <td><?php echo $luas; ?></td>
+                </tr>
+                <tr>
+                    <td>Keliling = a+b+c+d</td>
+                    <td><?php echo $keliling; ?></td>
+                </tr>
+            </table>
         </section>
     </main>
 </body>

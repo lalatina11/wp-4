@@ -28,16 +28,38 @@ $keliling = $a + $b + $c + $d;
                 method="POST">
                 <h2>
                     hitung luas Trapesium</h2>
-                <input type="number" name="a" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan a Trapesium">
-                <input type="number" name="b" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan b Trapesium">
-                <input type="number" name="c" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan c Trapesium">
-                <input type="number" name="d" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan d Trapesium">
-                <input type="number" name="t" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan t Trapesium">
+                <table style="width: 100%; text-align: left;">
+                    <tr>
+                        <td><label for="a">a</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="a" style="width: 100%; padding: 4px 8px;" id=""
+                                placeholder="Masukkan a Trapesium"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="b">b</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="b" style="width: 100%; padding: 4px 8px;" id=""
+                                placeholder="Masukkan b Trapesium"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="c">c</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="c" style="width: 100%; padding: 4px 8px;" id=""
+                                placeholder="Masukkan c Trapesium"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="d">d</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="d" style="width: 100%; padding: 4px 8px;" id=""
+                                placeholder="Masukkan d Trapesium"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="t">t</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="t" style="width: 100%; padding: 4px 8px;" id=""
+                                placeholder="Masukkan t Trapesium"></td>
+                    </tr>
+                </table>
                 <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
             </form>
         </section>
