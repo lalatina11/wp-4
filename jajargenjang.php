@@ -21,14 +21,28 @@
                 method="POST">
                 <h2>
                     hitung luas Jajar Genjang</h2>
-                <input type="number" name="alas" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan alas Jajar Genjang">
-                <input type="number" name="sisi" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan sisi Jajar Genjang">
-                <input type="number" name="tinggi" style="width: 100%; padding: 4px 8px;" id=""
-                    placeholder="Masukkan tinggi Jajar Genjang">
-                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
-            </form>
+                <table style="width: 100%;text-align: left;">
+                    <tr>
+                        <td><label for="alas">alas</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="alas" style="width: 100%;" id="alas"
+                                placeholder="Masukkan alas Jajar Genjang"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sisi">sisi</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="sisi" style="width: 100%;" id="sisi"
+                                placeholder="Masukkan sisi Jajar Genjang"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tinggi">tinggi</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="tinggi" style="width: 100%;" id="tinggi"
+                                placeholder="Masukkan tinggi Jajar Genjang"></td>
+                    </tr>
+                </table>
+                <td colspan="3"><input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id=""
+                        value="Submit"></td>
         </section>
     </main>
 </body>
