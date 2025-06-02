@@ -24,10 +24,20 @@ $keliling = 2 * $phi * $r;
                 <img src="./assets/images/gambar-lingkaran.webp  "
                     style="width: 100%;height: auto;margin-top: 20px;margin-bottom: 20px;" alt="Lingkaran">
             </div>
-            <div>
-                <h1 style="text-align: center;">Luas = phi x r x r = <?php echo $luas; ?></h1>
-                <h1 style="text-align: center;">Keliling = 2 (a + b) = <?php echo $keliling; ?></h1>
-            </div>
+            <table class="table table-bordered" style="width: 50%;margin: auto;">
+                <tr>
+                    <th>Rumus</th>
+                    <th>Hasil</th>
+                </tr>
+                <tr>
+                    <td>Luas = phi x r x r</td>
+                    <td><?php echo $luas; ?></td>
+                </tr>
+                <tr>
+                    <td>Keliling = 2 x phi x r</td>
+                    <td><?php echo $keliling; ?></td>
+                </tr>
+            </table>
         </section>
     </main>
 </body>

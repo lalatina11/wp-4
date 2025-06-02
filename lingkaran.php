@@ -20,10 +20,20 @@
             method="POST">
             <h2>
                 hitung luas Lingkaran</h2>
-            <input type="number" name="jari-jari" style="width: 100%; padding: 4px 8px;" id=""
-                placeholder="Masukkan jari-jari Lingkaran">
-            <input type="number" name="diameter" style="width: 100%; padding: 4px 8px;" id=""
-                placeholder="Masukkan diameter Lingkaran">
+            <table style="width: 100%; text-align: left;">
+                <tr>
+                    <td><label for="jari-jari">Jari-jari</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="jari-jari" style="width: 100%; padding: 4px 8px;" id=""
+                            placeholder="Masukkan jari-jari Lingkaran"></td>
+                </tr>
+                <tr>
+                    <td><label for="diameter">Diameter</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="diameter" style="width: 100%; padding: 4px 8px;" id=""
+                            placeholder="Masukkan diameter Lingkaran"></td>
+                </tr>
+            </table>
             <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
         </form>
     </main>
