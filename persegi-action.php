@@ -1,6 +1,6 @@
 <?php
 $sisi = $_POST['sisi'];
-
+$pilih = $_POST['pilih'];
 
 $luas = $sisi * $sisi;
 $keliling = 4 * $sisi;
@@ -25,18 +25,38 @@ $keliling = 4 * $sisi;
                 <img src="./assets/images/gambar-persegi.webp  " style="width: 100%;height: auto;" alt="Persegi">
             </div>
             <table class="table table-bordered" style="width: 50%;margin: 12px auto;">
-                <tr>
-                    <th>Rumus</th>
-                    <th>Hasil</th>
-                </tr>
-                <tr>
-                    <td>Luas = sisi x sisi</td>
-                    <td><?php echo $luas; ?></td>
-                </tr>
-                <tr>
-                    <td>Keliling = 4 x sisi</td>
-                    <td><?php echo $keliling; ?></td>
-                </tr>
+                <?php if ($pilih === "luas") { ?>
+                    <tr>
+                        <th>Rumus</th>
+                        <th>Hasil</th>
+                    </tr>
+                    <tr>
+                        <td>Luas = sisi x sisi</td>
+                        <td><?php echo $luas; ?></td>
+                    </tr>
+                <?php } else if ($pilih === "keliling") { ?>
+                        <tr>
+                            <th>Rumus</th>
+                            <th>Hasil</th>
+                        </tr>
+                        <tr>
+                            <td>Keliling = 4 x sisi</td>
+                            <td><?php echo $keliling; ?></td>
+                        </tr>
+                <?php } else { ?>
+                        <tr>
+                            <th>Rumus</th>
+                            <th>Hasil</th>
+                        </tr>
+                        <tr>
+                            <td>Luas = sisi x sisi</td>
+                            <td><?php echo $luas; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Keliling = 4 x sisi</td>
+                            <td><?php echo $keliling; ?></td>
+                        </tr>
+                <?php } ?>
             </table>
     </main>
 </body>
