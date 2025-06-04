@@ -10,6 +10,9 @@
 
 <body>
     <h1>Kalkulator Bangun Datar</h1>
+    <?php include "components/dark-mode.php" ?>
+    <br />
+    <br />
     <ol>
         <li>
             <a href="belahketupat.php">Belah Ketupat</a>
