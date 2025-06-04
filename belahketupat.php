@@ -45,18 +45,7 @@ $keliling = 4 * $sisi;
                         <td><input type="number" name="sisi" style="width: 100%;" id="sisi"
                                 placeholder="Masukkan sisi Belah Ketupat"></td>
                     </tr>
-                    <tr>
-                        <td><label for="pilih">Pilih</label></td>
-                        <td>:</td>
-                        <td>
-                            <input type="radio" name="pilih" id="pilih" value="luas">
-                            <label for="">Luas</label>
-                            <input type="radio" name="pilih" id="pilih" value="keliling">
-                            <label for="">Keliling</label>
-                            <input type="radio" name="pilih" id="pilih" value="semua">
-                            <label for="">Semua</label>
-                        </td>
-                    </tr>
+                    <?php include "components/option.php" ?>
                 </table>
                 <td colspan="3"><input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id=""
                         value="Submit"></td>
