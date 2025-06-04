@@ -13,7 +13,3 @@
         object-fit: cover;
     }
 </style>
-
-<script>
-    document.documentElement.setAttribute("data-bs-theme", "dark")
-</script>
