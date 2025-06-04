@@ -39,9 +39,6 @@
         <li>
             <a href="trapesium.php">Trapesium</a>
         </li>
-        <li>
-            <a href="index-table.php">Table</a>
-        </li>
     </ol>
 </body>
 
