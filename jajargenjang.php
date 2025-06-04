@@ -40,9 +40,11 @@
                         <td><input type="number" name="tinggi" style="width: 100%;" id="tinggi"
                                 placeholder="Masukkan tinggi Jajar Genjang"></td>
                     </tr>
+                    <?php include "components/option.php" ?>
                 </table>
                 <td colspan="3"><input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id=""
                         value="Submit"></td>
+                <form />
         </section>
     </main>
 </body>

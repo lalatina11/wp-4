@@ -4,7 +4,7 @@ $tinggi = $_POST['tinggi'];
 $sisi = $_POST['sisi'];
 $luas = $alas * $tinggi;
 $keliling = 2 * ($alas + $sisi);
-
+$pilih = $_POST['pilih'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,14 +31,26 @@ $keliling = 2 * ($alas + $sisi);
                     <th>Rumus</th>
                     <th>Hasil</th>
                 </tr>
-                <tr>
-                    <td>Luas = alas x tinggi</td>
-                    <td><?php echo $luas; ?></td>
-                </tr>
-                <tr>
-                    <td>Keliling = 2(alas + sisi)</td>
-                    <td><?php echo $keliling; ?></td>
-                </tr>
+                <?php if ($pilih === "luas") { ?>
+                    <tr>
+                        <td>Luas = alas x tinggi</td>
+                        <td><?php echo $luas; ?></td>
+                    </tr>
+                <?php } else if ($pilih === "keliling") { ?>
+                        <tr>
+                            <td>Keliling = 2(alas + sisi)</td>
+                            <td><?php echo $keliling; ?></td>
+                        </tr>
+                <?php } else { ?>
+                        <tr>
+                            <td>Luas = alas x tinggi</td>
+                            <td><?php echo $luas; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Keliling = 2(alas + sisi)</td>
+                            <td><?php echo $keliling; ?></td>
+                        </tr>
+                <?php } ?>
             </table>
         </section>
     </main>
