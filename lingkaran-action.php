@@ -4,6 +4,7 @@ $r = $_POST['jari-jari'];
 $d = $_POST['diameter'];
 $luas = $phi * $r * $r;
 $keliling = 2 * $phi * $r;
+$pilih = $_POST['pilih'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,14 +31,26 @@ $keliling = 2 * $phi * $r;
                     <th>Rumus</th>
                     <th>Hasil</th>
                 </tr>
-                <tr>
-                    <td>Luas = phi x r x r</td>
-                    <td><?php echo $luas; ?></td>
-                </tr>
-                <tr>
-                    <td>Keliling = 2 x phi x r</td>
-                    <td><?php echo $keliling; ?></td>
-                </tr>
+                <?php if ($pilih === "luas") { ?>
+                    <tr>
+                        <td>Luas = phi x r x r</td>
+                        <td><?php echo $luas; ?></td>
+                    </tr>
+                <?php } else if ($pilih === "keliling") { ?>
+                        <tr>
+                            <td>Keliling = 2 x phi x r</td>
+                            <td><?php echo $keliling; ?></td>
+                        </tr>
+                <?php } else { ?>
+                        <tr>
+                            <td>Luas = phi x r x r</td>
+                            <td><?php echo $luas; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Keliling = 2 x phi x r</td>
+                            <td><?php echo $keliling; ?></td>
+                        </tr>
+                <?php } ?>
             </table>
         </section>
     </main>

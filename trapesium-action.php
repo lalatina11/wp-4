@@ -6,7 +6,7 @@ $c = $_POST['c'];
 $d = $_POST['d'];
 $luas = 1 / 2 * ($a + $b) * $t;
 $keliling = $a + $b + $c + $d;
-
+$pilih = $_POST['pilih'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,14 +33,26 @@ $keliling = $a + $b + $c + $d;
                     <th>Rumus</th>
                     <th>Hasil</th>
                 </tr>
-                <tr>
-                    <td>Luas = 1/2 (a+b)xt</td>
-                    <td><?php echo $luas; ?></td>
-                </tr>
-                <tr>
-                    <td>Keliling = a+b+c+d</td>
-                    <td><?php echo $keliling; ?></td>
-                </tr>
+                <?php if ($pilih === "luas") { ?>
+                    <tr>
+                        <td>Luas = 1/2 (a+b) x t</td>
+                        <td><?php echo $luas; ?></td>
+                    </tr>
+                <?php } else if ($pilih === "keliling") { ?>
+                        <tr>
+                            <td>Keliling = a + b + c + d</td>
+                            <td><?php echo $keliling; ?></td>
+                        </tr>
+                <?php } else { ?>
+                        <tr>
+                            <td>Luas = 1/2 (a+b) x t</td>
+                            <td><?php echo $luas; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Keliling = a + b + c + d</td>
+                            <td><?php echo $keliling; ?></td>
+                        </tr>
+                <?php } ?>
             </table>
         </section>
     </main>

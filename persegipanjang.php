@@ -33,6 +33,7 @@
                         <td><input type="number" name="lebar" style="width: 100%; padding: 4px 8px;" id=""
                                 placeholder="Masukkan lebar Persegi-Panjang"></td>
                     </tr>
+                    <?php include "components/option.php" ?>
                 </table>
                 <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="" />
             </form>

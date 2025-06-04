@@ -33,6 +33,7 @@
                     <td><input type="number" name="diameter" style="width: 100%; padding: 4px 8px;" id=""
                             placeholder="Masukkan diameter Lingkaran"></td>
                 </tr>
+                <?php include "components/option.php" ?>
             </table>
             <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
         </form>

@@ -3,7 +3,7 @@ $panjang = $_POST['panjang'];
 $lebar = $_POST['lebar'];
 $luas = $panjang * $lebar;
 $keliling = 2 * ($panjang + $lebar);
-
+$pilih = $_POST['pilih'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,14 +30,26 @@ $keliling = 2 * ($panjang + $lebar);
                     <th>Rumus</th>
                     <th>Hasil</th>
                 </tr>
-                <tr>
-                    <td>Luas = panjang x lebar</td>
-                    <td><?= $panjang . " X " . $lebar . " =" . $luas; ?></td>
-                </tr>
-                <tr>
-                    <td>Keliling = 2 x (panjang + lebar)</td>
-                    <td><?= "2 x (" . $panjang . " + " . $lebar . ") = " . $keliling; ?></td>
-                </tr>
+                <?php if ($pilih === "luas") { ?>
+                    <tr>
+                        <td>Luas = panjang x lebar</td>
+                        <td><?= $panjang . " X " . $lebar . " =" . $luas; ?></td>
+                    </tr>
+                <?php } else if ($pilih === "keliling") { ?>
+                        <tr>
+                            <td>Keliling = 2 x (panjang + lebar)</td>
+                            <td><?= "2 x (" . $panjang . " + " . $lebar . ") = " . $keliling; ?></td>
+                        </tr>
+                <?php } else { ?>
+                        <tr>
+                            <td>Luas = panjang x lebar</td>
+                            <td><?= $panjang . " X " . $lebar . " =" . $luas; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Keliling = 2 x (panjang + lebar)</td>
+                            <td><?= "2 x (" . $panjang . " + " . $lebar . ") = " . $keliling; ?></td>
+                        </tr>
+                <?php } ?>
             </table>
     </main>
 </body>

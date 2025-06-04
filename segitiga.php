@@ -51,6 +51,7 @@
                         <td><input type="number" name="sisi-c" style="width: 100%;" id="sisi-c"
                                 placeholder="Masukkan sisi c Segitiga"></td>
                     </tr>
+                    <?php include "components/option.php" ?>
                 </table>
                 <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
             </form>

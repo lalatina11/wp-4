@@ -51,6 +51,7 @@
                         <td><input type="number" name="t" style="width: 100%; padding: 4px 8px;" id=""
                                 placeholder="Masukkan t Trapesium"></td>
                     </tr>
+                    <?php include "components/option.php" ?>
                 </table>
                 <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
             </form>
