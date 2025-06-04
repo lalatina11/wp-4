@@ -46,6 +46,7 @@
                     <td><input type="number" name="b" style="width: 100%;" id="b"
                             placeholder="Masukkan b Layang-Layang"></td>
                 </tr>
+                <?php include "components/option.php" ?>
             </table>
             <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
         </form>
