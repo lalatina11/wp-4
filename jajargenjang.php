@@ -26,19 +26,19 @@
                         <td><label for="alas">alas</label></td>
                         <td>:</td>
                         <td><input type="number" name="alas" style="width: 100%;" id="alas"
-                                placeholder="Masukkan alas Jajar Genjang"></td>
+                                placeholder="Masukkan alas Jajar Genjang" required></td>
                     </tr>
                     <tr>
                         <td><label for="sisi">sisi</label></td>
                         <td>:</td>
                         <td><input type="number" name="sisi" style="width: 100%;" id="sisi"
-                                placeholder="Masukkan sisi Jajar Genjang"></td>
+                                placeholder="Masukkan sisi Jajar Genjang" required></td>
                     </tr>
                     <tr>
                         <td><label for="tinggi">tinggi</label></td>
                         <td>:</td>
                         <td><input type="number" name="tinggi" style="width: 100%;" id="tinggi"
-                                placeholder="Masukkan tinggi Jajar Genjang"></td>
+                                placeholder="Masukkan tinggi Jajar Genjang" required></td>
                     </tr>
                     <?php include "components/option.php" ?>
                 </table>

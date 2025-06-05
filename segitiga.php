@@ -25,35 +25,35 @@
                         <td><label for="alas">Alas</label></td>
                         <td>:</td>
                         <td><input type="number" name="alas" style="width: 100%;" id="alas"
-                                placeholder="Masukkan alas Segitiga"></td>
+                                placeholder="Masukkan alas Segitiga" required></td>
                     </tr>
                     <tr style="gap: 10px;">
                         <td><label for="tinggi">Tinggi</label></td>
                         <td>:</td>
                         <td><input type="number" name="tinggi" style="width: 100%;" id="tinggi"
-                                placeholder="Masukkan tinggi Segitiga"></td>
+                                placeholder="Masukkan tinggi Segitiga" required></td>
                     </tr>
                     <tr style="gap: 10px;">
                         <td><label for="sisi-a">Sisi a</label></td>
                         <td>:</td>
                         <td><input type="number" name="sisi-a" style="width: 100%;" id="sisi-a"
-                                placeholder="Masukkan sisi a Segitiga"></td>
+                                placeholder="Masukkan sisi a Segitiga" required></td>
                     </tr>
                     <tr style="gap: 10px;">
                         <td><label for="sisi-b">Sisi b</label></td>
                         <td>:</td>
                         <td><input type="number" name="sisi-b" style="width: 100%;" id="sisi-b"
-                                placeholder="Masukkan sisi b Segitiga"></td>
+                                placeholder="Masukkan sisi b Segitiga" required></td>
                     </tr>
                     <tr style="gap: 10px;">
                         <td><label for="sisi-c">Sisi c</label></td>
                         <td>:</td>
                         <td><input type="number" name="sisi-c" style="width: 100%;" id="sisi-c"
-                                placeholder="Masukkan sisi c Segitiga"></td>
+                                placeholder="Masukkan sisi c Segitiga" required></td>
                     </tr>
                     <?php include "components/option.php" ?>
                 </table>
-                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+                <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="" required>
             </form>
         </section>
     </main>

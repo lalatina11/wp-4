@@ -25,13 +25,13 @@
                         <td><label for="panjang">Panjang</label></td>
                         <td>:</td>
                         <td><input type="number" name="panjang" style="width: 100%; padding: 4px 8px;" id=""
-                                placeholder="Masukkan panjang Persegi-Panjang"></td>
+                                placeholder="Masukkan panjang Persegi-Panjang" required></td>
                     </tr>
                     <tr>
                         <td><label for="lebar">Lebar</label></td>
                         <td>:</td>
                         <td><input type="number" name="lebar" style="width: 100%; padding: 4px 8px;" id=""
-                                placeholder="Masukkan lebar Persegi-Panjang"></td>
+                                placeholder="Masukkan lebar Persegi-Panjang" required></td>
                     </tr>
                     <?php include "components/option.php" ?>
                 </table>

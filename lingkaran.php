@@ -25,17 +25,17 @@
                     <td><label for="jari-jari">Jari-jari</label></td>
                     <td>:</td>
                     <td><input type="number" name="jari-jari" style="width: 100%; padding: 4px 8px;" id=""
-                            placeholder="Masukkan jari-jari Lingkaran"></td>
+                            placeholder="Masukkan jari-jari Lingkaran" required></td>
                 </tr>
                 <tr>
                     <td><label for="diameter">Diameter</label></td>
                     <td>:</td>
                     <td><input type="number" name="diameter" style="width: 100%; padding: 4px 8px;" id=""
-                            placeholder="Masukkan diameter Lingkaran"></td>
+                            placeholder="Masukkan diameter Lingkaran" required></td>
                 </tr>
                 <?php include "components/option.php" ?>
             </table>
-            <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="">
+            <input class="btn btn-primary" style="width: 100%;" type="submit" name="submit" id="" required>
         </form>
     </main>
 </body>

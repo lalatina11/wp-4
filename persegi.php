@@ -23,7 +23,7 @@
                     <tr>
                         <td><label for="sisi">Sisi</label></td>
                         <td>:</td>
-                        <td><input type="number" name="sisi" style="width: 100%;" id="sisi"
+                        <td><input type="number" required name="sisi" style="width: 100%;" id="sisi"
                                 placeholder="Masukkan sisi Persegi"></td>
                     </tr>
                     <?php include "components/option.php" ?>

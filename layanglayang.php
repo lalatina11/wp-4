@@ -26,25 +26,25 @@
                     <td><label for="d1">d1</label></td>
                     <td>:</td>
                     <td><input type="number" name="d1" style="width: 100%;" id="d1"
-                            placeholder="Masukkan d1 Layang-Layang"></td>
+                            placeholder="Masukkan d1 Layang-Layang" required></td>
                 </tr>
                 <tr>
                     <td><label for="d2">d2</label></td>
                     <td>:</td>
                     <td><input type="number" name="d2" style="width: 100%;" id="d2"
-                            placeholder="Masukkan d2 Layang-Layang"></td>
+                            placeholder="Masukkan d2 Layang-Layang" required></td>
                 </tr>
                 <tr>
                     <td><label for="a">a</label></td>
                     <td>:</td>
-                    <td><input type="number" name="a" style="width: 100%;" id="a"
-                            placeholder="Masukkan a Layang-Layang"></td>
+                    <td><input type="number" name="a" style="width: 100%;" id="a" placeholder="Masukkan a Layang-Layang"
+                            required></td>
                 </tr>
                 <tr>
                     <td><label for="b">b</label></td>
                     <td>:</td>
-                    <td><input type="number" name="b" style="width: 100%;" id="b"
-                            placeholder="Masukkan b Layang-Layang"></td>
+                    <td><input type="number" name="b" style="width: 100%;" id="b" placeholder="Masukkan b Layang-Layang"
+                            required></td>
                 </tr>
                 <?php include "components/option.php" ?>
             </table>

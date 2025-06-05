@@ -30,19 +30,19 @@ $keliling = 4 * $sisi;
                     <tr>
                         <td><label for="d1">d1</label></td>
                         <td>:</td>
-                        <td><input type="number" name="d1" style="width: 100%;" id="d1"
+                        <td><input type="number" required name="d1" style="width: 100%;" id="d1"
                                 placeholder="Masukkan d1 Belah Ketupat"></td>
                     </tr>
                     <tr>
                         <td><label for="d2">d2</label></td>
                         <td>:</td>
-                        <td><input type="number" name="d2" style="width: 100%;" id="d2"
+                        <td><input type="number" required name="d2" style="width: 100%;" id="d2"
                                 placeholder="Masukkan d2 Belah Ketupat"></td>
                     </tr>
                     <tr>
                         <td><label for="sisi">sisi</label></td>
                         <td>:</td>
-                        <td><input type="number" name="sisi" style="width: 100%;" id="sisi"
+                        <td><input type="number" required name="sisi" style="width: 100%;" id="sisi"
                                 placeholder="Masukkan sisi Belah Ketupat"></td>
                     </tr>
                     <?php include "components/option.php" ?>

@@ -24,31 +24,31 @@
                     <tr>
                         <td><label for="a">a</label></td>
                         <td>:</td>
-                        <td><input type="number" name="a" style="width: 100%; padding: 4px 8px;" id=""
+                        <td><input type="number" name="a" style="width: 100%; padding: 4px 8px;" id="" required
                                 placeholder="Masukkan a Trapesium"></td>
                     </tr>
                     <tr>
                         <td><label for="b">b</label></td>
                         <td>:</td>
-                        <td><input type="number" name="b" style="width: 100%; padding: 4px 8px;" id=""
+                        <td><input type="number" name="b" style="width: 100%; padding: 4px 8px;" id="" required
                                 placeholder="Masukkan b Trapesium"></td>
                     </tr>
                     <tr>
                         <td><label for="c">c</label></td>
                         <td>:</td>
-                        <td><input type="number" name="c" style="width: 100%; padding: 4px 8px;" id=""
+                        <td><input type="number" name="c" style="width: 100%; padding: 4px 8px;" id="" required
                                 placeholder="Masukkan c Trapesium"></td>
                     </tr>
                     <tr>
                         <td><label for="d">d</label></td>
                         <td>:</td>
-                        <td><input type="number" name="d" style="width: 100%; padding: 4px 8px;" id=""
+                        <td><input type="number" name="d" style="width: 100%; padding: 4px 8px;" id="" required
                                 placeholder="Masukkan d Trapesium"></td>
                     </tr>
                     <tr>
                         <td><label for="t">t</label></td>
                         <td>:</td>
-                        <td><input type="number" name="t" style="width: 100%; padding: 4px 8px;" id=""
+                        <td><input type="number" name="t" style="width: 100%; padding: 4px 8px;" id="" required
                                 placeholder="Masukkan t Trapesium"></td>
                     </tr>
                     <?php include "components/option.php" ?>
